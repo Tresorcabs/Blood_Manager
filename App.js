@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Bienvenue sur Blood Manager Tresor</Text>
+      <Text>Bienvenue sur Blood Manager Tresor Cabs</Text>
       <StatusBar style="auto" />
     </View>
   );
