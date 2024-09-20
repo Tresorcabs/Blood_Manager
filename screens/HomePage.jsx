@@ -65,6 +65,7 @@ const HomePage = () => {
                             <Text style={styles.TotalPocketText} >Total pockets : {totalPockets}</Text>
                         </View>
 
+                        {/** Liste des ajouts récents */}
                         <FlatList
                             data={FormData}
                             renderItem={({ item }) => <DataCard data={item} onDelete={() => handleDelete(item.id)} />}
