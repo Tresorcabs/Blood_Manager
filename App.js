@@ -1,10 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import PDfScreen from "./PDfScreen";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Bienvenue sur Blood Manager pour mieux vous aider</Text>
+      <PDfScreen />
       <StatusBar style="auto" />
     </View>
   );
